@@ -32,10 +32,11 @@ What tools did we use?
 
 * Due to the big amount of data and the need of computationaly expensive queries, we used spark and aws.
 
-#### 2.2 purpose of the data model
-What is the purpose of the data model we create?(what are the questions it will answer?)
+#### 2.2 purpose of the data model (questions the model  will answer)
+what are the questions the model  will answer?
 
 * The data model will be able to give information regarding the vaccination progress, covid cases and gdpr info for every country. By connecting each table of the model with the country we can get cross reference of the aformentioned information.
+* Example question: What is the current vaccination status in a country? which is the level of the new cases to death rate? how it correlates to the gdpr of the country?
 
 #### 3 Instructions
 
