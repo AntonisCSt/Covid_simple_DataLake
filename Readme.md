@@ -13,7 +13,7 @@
 
 ## 2 Scope the Project and Data decription
 
-#### Scope 
+#### 2.1 Scope 
 What is the goal of this mini-project?
 * The goal of this project is to gather data regarding the covid-19 cases, vaccination processes and demographics. We would like to create a DataLake that extracts the data from online sources and loads them into a database that can be used for analytics or any other data app.
 
@@ -32,7 +32,7 @@ What tools did we use?
 
 * Due to the big amount of data and the need of computationaly expensive queries, we used spark and aws.
 
-
+#### 2.2 purpose of the data model
 What is the purpose of the data model we create?(what are the questions it will answer?)
 
 * The data model will be able to give information regarding the vaccination progress, covid cases and gdpr info for every country. By connecting each table of the model with the country we can get cross reference of the aformentioned information.
