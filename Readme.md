@@ -33,6 +33,10 @@ What tools did we use?
 * Due to the big amount of data and the need of computationaly expensive queries, we used spark and aws.
 
 
+What is the purpose of the data model we create?(what are the questions it will answer?)
+
+* The data model will be able to give information regarding the vaccination progress, covid cases and gdpr info for every country. By connecting each table of the model with the country we can get cross reference of the aformentioned information.
+
 #### 3 Instructions
 
 * Rather simple :) just run the etl.py program.
